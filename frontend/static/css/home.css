@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&family=Roboto+Condensed&display=swap');
+
+
+/* Home */
+section{
+    height: 100vh;
+    padding: 1rem;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+    transition: 1s;
+}
+
+.home h1 {
+    font-size: 5rem;
+    color: rgb(223, 215, 1);
+}
+
+.home p {
+    font-size: 20px;
+    color: #009342;
+    padding: 1rem 0;
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: .7rem 3rem;
+    background-color: #009342;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 20px;
+    border: none;
+    border-radius: 5rem;
+}
+
+.btn:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    background-color: #dfd701;
+}
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 100%;
+    padding: 40px 0;
+    z-index: -999;
+    background-color: #fff;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+    color: #009342;
+}
+
+.footer .social a{
+    padding-left: 1px;
+    padding-top: 4px;
+    font-size: 25px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 30px;
+    display: inline-block;
+    border: 1px solid #009342;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+.footer .social a:hover{
+    color: #dfd701;
+    border: 1px solid #dfd701;
+}
+
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer ul li a{
+    color: #009342;
+}
+
+.footer ul li a:hover{
+    color: #dfd701;
+}
+
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #009342;
+}
+
+.footer h3{
+    margin-top: 35px;
+    text-align: center;
+    font-size: 13px;
+    color: #009342;
+}
+
+@media (max-width:1200px){   
+    .home {
+        padding: 1rem 4rem;
+    }
+}
